@@ -15,7 +15,9 @@ main > section{
 }
 
 footer {
-
+    margin: auto;
+    padding: 10px;
+    text-align: center;
 }
 
 .nav{
