@@ -20,6 +20,17 @@ footer {
     text-align: center;
 }
 
+.social-icons > a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 24px;
+    letter-spacing: 0.5em;
+}
+
+.social-icons > a:hover{
+    color: #CCCCCC;
+}
+
 .nav{
     height: 50px;
     width: 100%;
