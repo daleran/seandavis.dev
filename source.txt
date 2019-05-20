@@ -1,0 +1,32 @@
+Sean Davis
+Software Engineer | Leader
+
+I am a Masters of Software Engineering student at Penn State University World Campus while I finish a two year tour in South Korea.
+
+Soon, I will return to the United States in May 2020 where I will be seeking employment as a Software Engineer.
+
+Previously, I was an Engineer Officer in the US Army Corps of Engineers. I served for 6 years managing multi-million dollar projects and leading dozens of Soldiers around the world.
+
+
+Leadership
+-Supervisor
+--At 23, 11 Soldiers were placed in my care. From then on, I was always a supervisor.
+-Project Management
+--Everything I have ever worked on has been project based. I have been the direct lead on $45 million projects inolving 300 Soldiers.
+-Communication
+--Wroking for the massive bueracracy that is the Department of Defense required me to learn how to communicate vertically and horizontally to accomplish the mission.
+-Team Building
+--From a fresh teams to grizzled veterans, I know how to build effective teams geared for mission accomplishment.
+-Leader Development
+--Not only can I lead, but I can also forge new leaders and develop subordinates to become future managers.
+
+Technologies
+-C#
+--I have written more lines of code in C# than any other language. Whatever C# task is required, I can do it.
+-Java
+--I first learned Java in 2005. Currently, my masters program uses Java for all programming assignments.
+-HTML/CSS
+--My first forray into software development was an HTML 4 book I bought in 2001. Now I am fluent in both HTML5 and CSS3.
+-Unity3D
+--Game development has been a bobby of mine since 2015. Although I have not made the next Minecraft yet, I still enjoy toying around with Unity3D on the weekends.
+
