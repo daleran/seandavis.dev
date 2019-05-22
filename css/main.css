@@ -1,23 +1,82 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     background-color: #222222;
     color:#CCCCCC;
   }
 
-main > section{
-    padding: 60px 20px 5px 20px;
+.debug-white{
+  border: 1px solid white;
+}
+
+.debug-red{
+  border: 1px solid red;
+}
+
+.debug-blue{
+  border: 1px solid blue;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.line{
+  background-color: #CCCCCC;
+  width: 290px;
+  height: 5px;
+}
+
+.centered
+{
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.col-full{
+  padding: 15px;
+}
+
+
+h1{
+  font-size: 3em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  
+}
+
+h2{
+
+}
+
+h3{
+
 }
 
 footer {
     margin: auto;
     padding: 10px;
     text-align: center;
+}
+
+.profile-pic{
+  border-radius: 50%;
+  max-width: 200px;
+  height: auto;
 }
 
 .social-icons > a{
@@ -30,6 +89,8 @@ footer {
 .social-icons > a:hover{
     color: #CCCCCC;
 }
+
+
 
 .nav{
     height: 50px;
@@ -57,7 +118,6 @@ footer {
   
   .nav > .nav-links {
     display: inline;
-    float: right;
     list-style-type:none;
     font-size: 18px;
   }
