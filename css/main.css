@@ -32,6 +32,7 @@ body {
   align-items: center;
   align-content: center;
   text-align: center;
+  padding-top: 60px;
 }
 
 .line{
@@ -40,8 +41,7 @@ body {
   height: 5px;
 }
 
-.centered
-{
+.centered{
   margin-left: auto;
   margin-right: auto;
   float: none;
