@@ -40,6 +40,7 @@ body {
   background-color: #CCCCCC;
   width: 290px;
   height: 5px;
+  margin: 0;
 }
 
 .centered{
@@ -53,22 +54,22 @@ body {
 }
 
 
-h1{
+.page-header{
   font-size: 2em;
   font-weight: bolder;
   text-transform: uppercase;
   margin: 0;
 }
 
-h2{
+.section-header{
   margin: 0;
 }
 
-h3{
+.section-subheader{
   margin: 0;
 }
 
-p{
+.text-content{
   margin: 0;
 }
 
