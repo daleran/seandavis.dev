@@ -1,32 +1,55 @@
 Sean Davis
 Software Engineer | Leader
 
-I am a Masters of Software Engineering student at Penn State University World Campus while I finish a two year tour in South Korea.
-
-Soon, I will return to the United States in May 2020 where I will be seeking employment as a Software Engineer.
+I am a Masters of Software Engineering student at Penn State University World Campus while I finish a two year tour in South Korea. I return to the United States in May 2020.
 
 Previously, I was an Engineer Officer in the US Army Corps of Engineers. I served for 6 years managing multi-million dollar projects and leading dozens of Soldiers around the world.
 
 
 Leadership
--Supervisor
---At 23, 11 Soldiers were placed in my care. From then on, I was always a supervisor.
--Project Management
---Everything I have ever worked on has been project based. I have been the direct lead on $45 million projects inolving 300 Soldiers.
--Communication
---Wroking for the massive bueracracy that is the Department of Defense required me to learn how to communicate vertically and horizontally to accomplish the mission.
--Team Building
---From a fresh teams to grizzled veterans, I know how to build effective teams geared for mission accomplishment.
--Leader Development
---Not only can I lead, but I can also forge new leaders and develop subordinates to become future managers.
+First and foremost I am a leader.
 
-Technologies
+-Supervisor
+-- Managed between 11 and 84 personnel as a Mid-Level executive.
+-Project Management
+-- Lead Project Manager on a $13 Million Dollar training program for 300 Soldiers.
+-- Lead Project Manager for 4 seperate 6 long month training projects.
+-- Program Manager for Visiting Lecturers at the US Army Engineer School
+-Communication
+-- Worked with 7 different
+-Team Building
+-- Led and Built 3 Seperate Teams in 6 years.
+-- Assesed top section during annual training qualifiers.
+-Leader Development
+-- Developed 14 Low and Mid level managers into future Army Leaders.
+-- Course and Textbook writer at the US Army Engineer School.
+
+Engineer
 -C#
---I have written more lines of code in C# than any other language. Whatever C# task is required, I can do it.
+-4 Years of experience.
+-Unity3D Game Engine
+-Unity 
+-ASP.NET Core
 -Java
 --I first learned Java in 2005. Currently, my masters program uses Java for all programming assignments.
 -HTML/CSS
 --My first forray into software development was an HTML 4 book I bought in 2001. Now I am fluent in both HTML5 and CSS3.
 -Unity3D
 --Game development has been a bobby of mine since 2015. Although I have not made the next Minecraft yet, I still enjoy toying around with Unity3D on the weekends.
+Azure Cloud Services
+--Continous Integration
+--DevOps
+Git
+nUnit
+PL/SQL
+Oracle Databases
+
+Penn State University Masters of Software Engineering Projected August 2020
+GPA 4.0
+Java, Data Structures and Algorithms, Requirements Engineering, Design Patterns, System Architecture, Database Design and Implementation
+
+Texas A&M Civil Engineer (Transportation Specilization) December 2010
+GPA 3.1
+Corps of Cadets Company B1 Information Technology Officer
+Leadership, Traffic Modeling and Perdiction, Highway Design, Urban Planning, Stormwater Managment, Materials, Hydrology, Geology, Physics, MatLab, Calculus, Differential Equations
 
