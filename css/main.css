@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 *, *:before, *:after {
@@ -10,6 +12,8 @@ body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     background-color: #222222;
     color:#CCCCCC;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
 .debug-white{
@@ -50,6 +54,8 @@ body {
 }
 
 .row-full{
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 10px;
 }
 
@@ -123,6 +129,7 @@ footer {
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 10px 10px 10px;
+    z-index: 10;
   }
 
   .nav > .nav-btn {
