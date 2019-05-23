@@ -54,15 +54,22 @@ body {
 }
 
 .row-full{
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 10px 5px;
 }
 
 
 .page-header{
   font-size: 2em;
   font-weight: bolder;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.page-subheader{
+  font-size: 1.25em;
+  font-weight: 200;
   text-transform: uppercase;
   margin: 0;
 }
@@ -106,10 +113,6 @@ footer {
     padding: 10px;
     text-align: center;
 }
-
-
-
-
 
 .nav{
     height: 50px;
@@ -192,8 +195,11 @@ footer {
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
-      top: 50px;
       left: 0px;
+      margin: 0;
+
+      -webkit-box-shadow: 0px 6px 8px -3px rgba(0,0,0,0.8); 
+      box-shadow: 0px 6px 8px -3px rgba(0,0,0,0.8);
     }
     .nav > .nav-links > li> a {
       display: block;
@@ -205,5 +211,9 @@ footer {
     .nav > #nav-check:checked ~ .nav-links {
       height: 140px;
       overflow-y: hidden;
+    }
+
+    .profile-pic{
+      max-width: 110px;
     }
   }
