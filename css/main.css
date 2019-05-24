@@ -2,10 +2,7 @@ html {
   box-sizing: border-box;
   margin: 0 !important;
   padding: 0 !important;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
+  font-size: 16px;
 }
 
 body {
@@ -24,36 +21,116 @@ h1, h2, h3, h4, h5, h6, p{
 
 .wrapper {
   margin: auto;
-  max-width: 1200px;
+  max-width: 1024px;
 }
 
-.main{
-    display: flex;
-    flex-direction: column;
+.center-text{
+  text-align: center;
+}
+
+.container-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.container-wrap{
+  flex-wrap: wrap;
+}
+
+.box-default{
+  flex: initial;
+}
+
+.box-1{
+  flex: 1;
+}
+
+.box-none{
+  flex: none;
 }
 
 .header{
-  height: 50px;
+  height: 60px;
   width: 100%;
 }
 
 .nav{
   width: 100%;
-  height: 50px;
   position: fixed;
-  background: #03a9f4;
-  padding: 15px;
+  display: block;
+  background: #333333;
 }
 
-.content{
+.nav-logo{
+  display: inline-block;
+}
+
+.nav-logo > a{
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+  padding: 10px;
+  color: #FFCC66;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-links{
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links > li{
+  display: inline-block;
+}
+
+.nav-links a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 13px 10px;
+  font-size: 1.25rem;
+  color: #999999;
+}
+
+.nav-links a:hover{
+  color: #eee;
+}
+
+.section{
   background: #129a22;
-  padding: 15px;
-  flex: 0 1 auto;
+  padding: 20px;
 }
 
 .intro{
-  background: #d22b1f;
-  height: calc(100vh - 50px);
+  background: #222222;
+}
+
+.page-title{
+  font-size: 3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+.page-subtitle{
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  color: #E9967A;
+}
+
+.intro em{
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFCC66;
 }
 
 .footer{
@@ -65,12 +142,44 @@ h1, h2, h3, h4, h5, h6, p{
 .social-icons > a{
     text-decoration: none;
     color: #CCCCCC;
-    font-size: 24px;
-    letter-spacing: 0.5em;
+    font-size: 1.5rem;
+    display: inline-block;
 }
 
 .social-icons > a:hover{
-    color: #EEEEEE;
+  color: #EEEEEE;
+}
+
+.profile-pic{
+  max-width: 180px;
+  height: auto;
+
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.8); 
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.8);
+}
+
+.drop-shadow{
+  -webkit-box-shadow: 0px 6px 6px 2px rgba(0,0,0,0.6); 
+  -moz-box-shadow: 0px 6px 6px 2px rgba(0,0,0,0.6); 
+  box-shadow: 0px 6px 6px 2px rgba(0,0,0,0.6);
+}
+
+.display-sm{
+  display: none;
+}
+
+.display-lg{
+  display: inherit;
+}
+
+@media (max-width:680px) { 
+  .display-sm{
+    display: inherit;
+  }
+  
+  .display-lg{
+    display: none;
+  }
 }
 
 
