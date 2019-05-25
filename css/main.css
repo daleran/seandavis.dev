@@ -11,9 +11,6 @@ body {
   margin:0;
 }
 
-main, header, section, footer {
-  color:#CCCCCC;
-}
 
 h1, h2, h3, h4, h5, h6, p{
   margin: 0;
@@ -24,13 +21,17 @@ h1, h2, h3, h4, h5, h6, p{
   max-width: 1024px;
 }
 
-.center-text{
-  text-align: center;
-}
-
 .header{
   height: 60px;
   width: 100%;
+}
+
+.container{
+  display: grid;
+}
+
+.item{
+
 }
 
 .nav{
@@ -49,7 +50,7 @@ h1, h2, h3, h4, h5, h6, p{
   font-size: 2rem;
   font-weight: 700;
   padding: 0.5rem;
-  color: #FFCC66;
+  color: #E9967A;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -72,15 +73,15 @@ h1, h2, h3, h4, h5, h6, p{
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 500;
-  color: #999999;
+  color: #DDDDDD;
 }
 
 .nav-links a:hover{
-  color: #eee;
+  color: #FFF;
 }
 
 .section{
-  background: #129a22;
+  background: #FFFFFF;
   padding: 20px;
 }
 
@@ -94,24 +95,27 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .page-title{
-  font-size: 3rem;
+  font-size: 5rem;
+  display: block;
+  width: 6rem;
+  padding: 1rem 0;
   font-weight: bolder;
   text-transform: uppercase;
-  color: #eee;
+  color: #FFF;
 }
 
 .page-subtitle{
   font-weight: 100;
   font-size: 1.5rem;
-  text-transform: lowercase;
+  padding: 1rem 0;
   color: #E9967A;
 }
 
-.intro em{
+.section em{
   text-transform: uppercase;
   font-weight: 500;
   font-style: normal;
-  color: #FFCC66;
+  color: #000000;
 }
 
 .footer{
@@ -120,15 +124,41 @@ h1, h2, h3, h4, h5, h6, p{
   text-align: center;
 }
 
+.social-icons{
+  display: inline-block;
+}
+
 .social-icons > a{
     text-decoration: none;
     color: #CCCCCC;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: inline-block;
+    margin-right: .5rem;
 }
 
 .social-icons > a:hover{
   color: #EEEEEE;
+}
+
+.round-box{
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  padding: 0.25rem;
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+.round-box:hover{
+  border-color: #EEEEEE;
+  color: #EEEEEE;
+}
+
+.line{
+  background-color: #CCCCCC;
+  width: 28rem;
+  height: 3px;
+  margin: 0;
 }
 
 .profile-pic{
@@ -159,16 +189,23 @@ h1, h2, h3, h4, h5, h6, p{
     display: none;
   }
 
-  .nav-links a{
-    font-weight: 700;
-  }
-}
-
-@media (max-width:380px) { 
   .nav-logo > a{
     font-size: 1.5rem;
   }
 
+  .nav-links a{
+    font-weight: 700;
+  }
 
+  .line{
+    width: 20rem;
+  }
+}
+
+@media (max-width:380px) { 
+
+  .line{
+    width: 14rem;
+  }
 }
 
