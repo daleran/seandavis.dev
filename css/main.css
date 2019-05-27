@@ -7,31 +7,19 @@ html {
 
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  background: #222222;
+  background-color: #222222;
   margin:0;
 }
 
 
 h1, h2, h3, h4, h5, h6, p{
   margin: 0;
-}
-
-.wrapper {
-  margin: auto;
-  max-width: 1024px;
+  padding: 0.5em;
 }
 
 .header{
   height: 60px;
   width: 100%;
-}
-
-.container{
-  display: grid;
-}
-
-.item{
-
 }
 
 .nav{
@@ -77,17 +65,18 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .nav-links a:hover{
-  color: #FFF;
+  color: #61afef;
 }
 
 .section{
-  background: #FFFFFF;
-  padding: 20px;
+  background-color: #FFFFFF;
+  padding: 1.5rem;
 }
 
 .intro{
-  background: #222222;
+  background-color: #222222 ;
 }
+
 
 .page-header{
   margin-left: auto;
@@ -97,8 +86,6 @@ h1, h2, h3, h4, h5, h6, p{
 .page-title{
   font-size: 5rem;
   display: block;
-  width: 6rem;
-  padding: 1rem 0;
   font-weight: bolder;
   text-transform: uppercase;
   color: #FFF;
@@ -107,7 +94,6 @@ h1, h2, h3, h4, h5, h6, p{
 .page-subtitle{
   font-weight: 100;
   font-size: 1.5rem;
-  padding: 1rem 0;
   color: #E9967A;
 }
 
@@ -119,7 +105,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .footer{
-  background: #616161;
+  background-color: #616161;
   padding: 15px;
   text-align: center;
 }
@@ -137,7 +123,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .social-icons > a:hover{
-  color: #EEEEEE;
+  color: #61afef;
 }
 
 .round-box{
@@ -164,12 +150,13 @@ h1, h2, h3, h4, h5, h6, p{
 .profile-pic{
   max-width: 120px;
   height: auto;
+  border-radius: 10px;
 }
 
 .drop-shadow{
-  -webkit-box-shadow: 0px 6px 6px 2px rgba(0,0,0,0.6); 
-  -moz-box-shadow: 0px 6px 6px 2px rgba(0,0,0,0.6); 
-  box-shadow: 0px 6px 6px 2px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 4px 4px 1px rgba(0,0,0,0.3); 
+  -moz-box-shadow: 0px 4px 4px 1px rgba(0,0,0,0.3); 
+  box-shadow: 0px 4px 4px 1px rgba(0,0,0,0.3);
 }
 
 .display-sm{
@@ -178,6 +165,54 @@ h1, h2, h3, h4, h5, h6, p{
 
 .display-lg{
   display: inherit;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1024px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.col-4 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.center-text{
+  text-align: center
+}
+
+.center-content{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 680px){
+  .col-1{
+    flex: 1;
+  }
+
+  .col-4{
+    flex: 4;
+  }
 }
 
 @media (max-width:680px) { 
