@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .header{
-  height: 60px;
+  height: 3.75rem;
   width: 100%;
 }
 
@@ -74,18 +74,19 @@ h1, h2, h3, h4, h5, h6, p{
 
 .intro{
   background-color: #222222 ;
+  height: calc(100vh - 8rem);
 }
 
 
 .page-header{
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  width: 15rem;
+  margin-top: 5rem;
 }
 
 .page-title{
   font-size: 5rem;
   padding: 0.5rem;
-  width: 14rem;
   display: block;
   font-weight: bolder;
   text-transform: uppercase;
@@ -96,10 +97,6 @@ h1, h2, h3, h4, h5, h6, p{
   font-weight: 100;
   font-size: 1.5rem;
   color: #E9967A;
-}
-
-.section-accent{
-  
 }
 
 .footer{
@@ -148,9 +145,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .line{
   background-color: #CCCCCC;
-  width: 14rem;
   height: 4px;
-  margin-left: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -236,12 +231,9 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 1.5rem;
   }
 
-  .line{
-    width: 30rem;
-  }
-
-  .page-title{
-    width: 100%;
+  .page-header{
+    width: auto;
+    margin-top: 10rem;
   }
 }
 
