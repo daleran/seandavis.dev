@@ -185,40 +185,40 @@ h1, h2, h3, h4, h5, h6, p, ul{
 
 .cap-small{
   text-align: center;
-  border: 2px solid #000000;
   border-radius: 0.5rem;
   font-size: 0.8rem;
   padding: 0.5rem;
   margin: 0.25rem;
-  color: #000000;
+  background-color: #888;
+  color: #FFF;
   text-decoration: none;
 }
 
 .cap-large{
   text-align: center;
-  border: 2px solid #000000;
   border-radius: 0.5rem;
   font-size: 1.2rem;
   padding: 0.5rem;
   margin: 0.25rem;
-  color: #000000;
+  background-color: #888;
+  color: #FFF;
   text-decoration: none;
 }
 
-.border-blue{
-  border-color: #6a9ad1;
+.cap-blue{
+  background-color: #5d7ab4;
 }
 
-.border-red{
-  border-color: #c75f5f;
+.cap-red{
+  background-color: #a74949;
 }
 
-.border-green{
-  border-color: #5fb37b;
+.cap-green{
+  background-color: #64ac8e;
 }
 
-.border-purple{
-  border-color: #ad59b8;
+.cap-purple{
+  background-color: #9255aa;
 }
 
 .center-text{
