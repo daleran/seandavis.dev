@@ -7,116 +7,113 @@
 
     <meta name="author" content="Sean Davis">
     <meta name="description" content="This is my personal online portfolio website with all my skills and experience.">
-    <meta name="keywords" content="portfolio, software, engineer, sean, davis, veteran, manager, about, skills, experience, education, contact">
+    <meta name="keywords" content="portfolio, software, engineer, sean, davis, veteran, manager, resume, about, skills, experience, education, contact">
     <meta name="language" content="english">
-    <meta name="og:title" content="Sean Davis - Software Engineer | Manager | Veteran">
-    <title>Sean Davis - Software Engineer | Manager | Veteran</title>
+    <meta name="og:title" content="Sean Davis - Portfolio">
+    <title>Sean Davis - Portfolio</title>
 
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="icons/style.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   </head>
+
   <body>
-    <nav class="nav drop-shadow">
-      <input type="checkbox" id="nav-check">
-      <div class="nav-header">
-          <a href="#" class="nav-logo">Sean Davis</a>
-      </div>
-      <div class="nav-btn">
-        <label for="nav-check">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-      </div>
-      <ul class="nav-links">
-          <li><a href="#">About</a></li>
-          <li><a href="#skills">Skills</a></li>
+    <!-- Header and Navbar-->
+    <header>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-title">seandavis.dev</a></li>
+          <li class="push-right"><a href="#about">About</a></li>
           <li><a href="#experience" >Experience</a></li>
-          <li><a href="#education">Education</a></li>
-      </ul>
-    </nav>
-    <div class="spacer-nav"></div>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hero -->
+      <section class="hero">
+          <div class="wrapper v-wrapper">
+            <h1>Sean Davis</h1>
+            <p class="subtitle">&gt; I am an experienced <strong>leader</strong>, energetic software <strong>engineer</strong>, and 6-year Army <strong>veteran</strong> that craves solving complex technical problems with talented people.</p>
+            <p><a href="#contact" class="btn-text">Contact Me</a><a href="mailto:sean_davis@verizon.net" class="btn-text">Resume</a></p>
+          </div>
+      </section>
+
+    </header>
+
+    <!-- Primary Content -->
     <main>
-      <section id="about" class="intro">
-        <div class="row-full">
-          <img src="img/profile.jpg" alt="Sean Davis" class="profile-pic">
-        </div>
-        <div class="row-full">
-            <h1 class="page-header">Sean Davis</h1>
-        </div>
-        <div class="row-full">
-            <div class="centered line"></div>
-        </div>
-        <div class="row-full subtitle">
-            <h2 class="page-subheader">Software Engineer | Manager | Veteran</h2>
-        </div>
-        <div class="row-full">
-            <p class="text-content">Software Engineer graduate student at Penn State with 6 years of management experience as a US Army Engineer Captain. </p>
-        </div>
-        <div class="row-full">
-            <p class="text-content">Currently residing in South Korea. I will return to the US in May 2020 to begin my next adventure.</p>
-        </div>
-        <div class="row-full">
-            <div class="social-icons"><a href="https://www.linkedin.com/in/sean-davis-dev">  <i class="fab fa-linkedin"></i></a><a href="https://github.com/daleran"><i class="fab fa-github"></i></a><a href="https://www.facebook.com/profile.php?id=8369550&ref=bookmarks"><i class="fab fa-facebook-square"></i></a><a href="mailto:sean_davis@verizon.net"><i class="fas fa-envelope"></i></a></div>
-        </div>
-      </section>
-      <section id="skills" class="section">
-        
-        <div class="container">
-            <h2>Skills</h2>
-              <section>
-                <h3>Engineer</h3>
-                <ul>
-                  <li>C#</li>
-                  <li>Java</li>
-                  <li>Git</li>
-                  <li>Unity3D</li>
-                </ul>
-              </section>
-        </div>
-        
-      </section>
-      <section id="experience" class="section">
-        <h2>Experience</h2>
-        <section>
-          <h3>US Army - Deputy Director</h3>
-          <div>
-            <span>June 2011 to June 2012</span>
-            <span>Camp Hovey, South Korea</span>
+      <!-- Introduction and About Me -->
+      <section id="about">
+        <div class="wrapper">
+          <h2>About Me</h2>
+          <div class="row">
+            <article class="col-1">
+              <h3>&gt; Leader</h3>
+              <p>
+                Six years as a US Army Corps of Engineers officer infused me with a passion to <em>lead</em>and <em>manage</em> challenging <em>projects</em>. I have led teams as small as <em>3</em> and as large as <em>180</em>. I served as lead on <em>$18 million-dollar projects</em> involving <em>400 people</em> and made decisions that permanently impacted people’s lives. I know what it means to be a <em>servant leader</em> and how to forge the <em>next generation of leaders</em> to replace me. Frankly, I'm good at it too.
+              </p>
+            </article>
+            <article class="col-1">
+              <h3>&gt; Engineer</h3>
+              <p>
+                  I have always been an <em>engineer</em>. At age 11 I learned <em>HTML 4</em> to make awful 90s Pokémon websites complete with flashing gifs and the &lt;marquee&gt; tag. I later made <em>popular game mods</em> and eventually graduated from <em>Texas A&M University</em> with a degree in <em>Civil Engineering</em> specializing in traffic modeling simulation. After a spinal injury ended my Army career, I focused back on my roots creating software. Seizing on my game development hobby using <em>C#</em> and <em>Unity3D</em>, I worked tirelessly to build the skills necessary to change careers. Eventually, the hard work paid off and <em>Penn State University</em> accepted me in their <em>Masters of Software Engineering</em> program.  I continue to learn and expand my skill set so I can be ready to begin my career in <em>May 2020</em>.
+              </p>
+            </article>
           </div>
-          <p>I ran the day to day operations of a South Korea based 180 person engineer company including all logistics, maintenance, and personnel systems. I directly supervised a section of 11 personnel.</p>
-          <p>Awarded the Army Achievement Medal for exceptionally planning and executing a one month long training exercise in which the entire company was certified on their primary systems.</p>
-          <ul>
-            <li>Leadership</li>
-            <li>Logistics</li>
-            <li>Project Management</li>
-            <li>Training</li>
-            <li>Human Resorces</li>
-          </ul>
-        </section>
+        </div>
       </section>
-      <section id="education" class="section">
-        <h2>Education</h2>
-        <section>
-          <h3>Penn State University</h3><span>World Campus</span>
-          <div>
-            <span>Masters of Engineering</span><span>Software Engineering</span><span>Projected August 2020</span>
+
+      <!-- Work History -->
+      <section id="about">
+          <div class="wrapper">
+            <h2>Work History</h2>
+            <h3>&gt; Program Manager</h3>
+            <p>January 2016 - January 2017</p>
+            <h4>US Army Engineer School - Fort Leonard Wood, Missouri</h4>
+            <ul class="indent-2">
+              <li>Recruited industry leading engineering professionals to lecture to over 1,000 engineer students.</li>
+              <li>Primary author of the Center for Army Lessons Learned (CALL) Handbook 17-11 Brigade Engineer Battalion and BCT Integration, April 2017. A handbook for senior US Army leaders on the various capabilities of the Brigade Engineer Battalion.</li>
+              <li>Conducted a US Army Corps of Engineer Regiment wide survey on the Sapper Leader Course. Sent to over 10,000 Soldiers, the results initiated a redesign of the Sapper Leader Course.</li>
+            </ul>
+            <ul class="row-list cap-list">
+                <li>Public Speaking</li>
+                <li>Technical Writing</li>
+                <li>Operations Research</li>
+            </ul>
+
+
+
+
+            <h2>Education</h2>    
           </div>
-          <ul>
-            <li>Java</li>
-            <li>Project Manager</li>
-            <li>Requirements</li>
-            <li>Design Patterns</li>
-            <li>System Architecture</li>
-          </ul>
         </section>
-      </section>
+
+
     </main>
-    <footer>
-      <div>Sean Davis &copy; 2019 </div>
-      <div class="social-icons"><a href="https://www.linkedin.com/in/sean-davis-dev">  <i class="fab fa-linkedin"></i></a><a href="https://github.com/daleran"><i class="fab fa-github"></i></a><a href="https://www.facebook.com/profile.php?id=8369550&ref=bookmarks"><i class="fab fa-facebook-square"></i></a><a href="mailto:sean_davis@verizon.net"><i class="fas fa-envelope"></i></a></div>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="wrapper">
+        <h2>Contact Me</h2>
+        <div class="row">
+          <div class="col-1">
+            <ul class="contact-list">
+              <li class="btn-icon"><i class="icon-location nudge-right"></i><span class="btn-label">Pyeongtaek, South Korea</span></li>
+              <li class="btn-icon"><i class="icon-mobile nudge-right"></i><span class="btn-label">+82 010-4296-1263</span></li>
+            </ul> 
+          </div>
+          <div class="col-1">
+            <ul class="contact-list">
+              <li><a href="https://www.linkedin.com/in/sean-m-davis-dev" class="btn-icon"><i class="icon-linkedin nudge-right"></i><span class="btn-label">LinkedIn</span></a></li>
+              <li><a href="https://github.com/daleran" class="btn-icon"><i class="icon-github nudge-right"></i><span class="btn-label">Github - daleran</span></a></li>
+              <li><a href="mailto:sean_davis@verizon.net" class="btn-icon"><i class="icon-envelop nudge-right"></i><span class="btn-label">sean_davis@verizon.net</span></a></li>
+            </ul> 
+          </div>
+        </div>
+        <div style="text-align: center">Sean Davis &copy; 2019 </div>
+      </div>
     </footer>
+
   </body>
 </html>
 
