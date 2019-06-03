@@ -80,9 +80,6 @@ p > a{
   margin-right: 1rem;
 }
 
-
-
-
 footer{
   background-color: #242424;
   padding: 1rem;
@@ -108,6 +105,13 @@ footer{
   font-weight: bold;
 }
 
+.hero{
+  background-image: url(../img/hero.jpg);
+  background-size: 100% auto;
+  background-attachment: fixed;
+  
+}
+
 .btn-icon{
     text-decoration: none;
     color: #CCCCCC;
@@ -129,7 +133,8 @@ footer{
 }
 
 .bg-accent{
-  background-color: #10112b;
+  background-color: #27111f;
+  border-radius: 1rem;
 }
 
 .btn-label{
@@ -142,13 +147,13 @@ footer{
   font-size: 1rem;
   font-weight: bolder;
   color: #222222;
-  background-color:#ff255b;
+  background-color:#ddba1e;
   padding: 0.25rem;
 }
 
 
 .btn-text:hover{
-  background-color:#CCC;
+  background-color:#ff255b;
 }
 
 .icn-large{
