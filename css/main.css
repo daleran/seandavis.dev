@@ -107,7 +107,7 @@ footer{
 
 .hero{
   background-image: url(../img/hero.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-attachment: fixed;
   
 }
