@@ -84,7 +84,7 @@ p > a{
 
 
 footer{
-  background-color: #10112b;
+  background-color: #242424;
   padding: 1rem;
 }
 
@@ -142,13 +142,13 @@ footer{
   font-size: 1rem;
   font-weight: bolder;
   color: #222222;
-  background-color:#CCCCCC;
+  background-color:#ff255b;
   padding: 0.25rem;
 }
 
 
 .btn-text:hover{
-  background-color:#ff255b;
+  background-color:#CCC;
 }
 
 .icn-large{
@@ -163,6 +163,7 @@ footer{
   margin-left: auto;
   margin-right: auto;
   flex: auto;
+  color: #FFF;
 }
 
 .pic-main{
