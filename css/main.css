@@ -24,6 +24,7 @@ h1{
   display: inline;
   font-weight: bold;
   color: #ff255b;
+  text-transform: uppercase;
 }
 
 h2{
@@ -60,28 +61,25 @@ header{
 
 nav{
   position: fixed;
-  background: #10112b;
+  background-color: #09001f;
   width: 100%;
 }
 
 section{
   background-color: transparent;
-  padding: 3rem 1.5rem;
+  padding: 2rem 0.5rem;
+}
+
+article{
+  margin: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
 }
 
 p > a{
   margin-right: 1rem;
 }
 
-.wrapper {
-  margin: auto;
-  max-width: 1024px;
-}
-
-.v-wrapper{
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-}
 
 footer{
   background-color: #10112b;
@@ -118,8 +116,18 @@ footer{
   color: #ff255b;
 }
 
-.nudge-right{
-  margin-right: 1rem;
+.btn-icon-small{
+  text-decoration: none;
+  color: #CCCCCC;
+  font-size: 1rem;
+}
+
+.btn-icon-small:hover{
+  color: #ff255b;
+}
+
+.bg-accent{
+  background-color: #10112b;
 }
 
 .btn-label{
@@ -132,7 +140,7 @@ footer{
   font-size: 1rem;
   font-weight: bolder;
   color: #222222;
-  background-color:#ffd900;
+  background-color:#ddba1e;
   padding: 0.25rem;
 }
 
@@ -187,16 +195,22 @@ footer{
   flex: 0 0 auto;
 }
 
-.cap-list > li{
+.cap-list > li~li{
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.75rem;
   font-weight: bolder;
   color: #222222;
-  background-color:#ffd900;
+  background-color:#ddba1e;
   padding: 0.25rem;
   margin-right: 0.5rem;
   margin-top: 0.5rem;
+}
+
+.small-thin-font{
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: #CCCCCC;
 }
 
 .indent-2{
@@ -209,6 +223,25 @@ footer{
 
 .contact-list{
   list-style: none;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1024px;
+}
+
+.v-wrapper{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.nudge-right{
+  margin-right: 1rem;
+}
+
+.v-padding-zero{
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .contact-list .btn-label{
@@ -255,7 +288,7 @@ footer{
 
   .nav-links a{
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
