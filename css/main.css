@@ -234,7 +234,7 @@ footer{
 .cap-list > li~li{
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: bolder;
   color: #222222;
   background-color:#ddba1e;
@@ -251,7 +251,7 @@ footer{
 }
 
 .indent-2{
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .push-right{
@@ -327,6 +327,10 @@ footer{
   .nav-links a{
     font-weight: 300;
     font-size: 1.5rem;
+  }
+
+  .indent-2{
+    margin-left: 2rem;
   }
 
 }
