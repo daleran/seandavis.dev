@@ -39,7 +39,8 @@ h3{
 }
 
 h4{
-  font-weight: normal;
+  color: #ddba1e;
+  font-weight: 500;
   font-size: 1rem;
   font-style: italic;
 }
@@ -182,7 +183,7 @@ footer{
 .skill-pic{
   height: auto;
   width: 5rem;
-  padding: 1rem;
+  padding: 0.25rem;
   color: #FFF;
   margin-left: auto;
   margin-right: auto;
@@ -248,15 +249,44 @@ footer{
   color: #CCCCCC;
 }
 
-.skill-card{
-  background-color: #40082d;
-  border-radius: 1rem;
-  padding: 0.5rem;
-  margin: 0.5rem 1rem;
+.comp-card{
+  margin: 0.5rem;
 }
 
-.skill-card > h4{
+.comp-card h4 {
   text-align: center;
+}
+
+.comp-card p{
+  color: #ccc
+}
+
+.skill-back{
+  border-color: #ddba1e;
+  border-style: solid;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.skills{
+  justify-content: center;
+}
+
+.skills li{
+  font-size: 6rem;
+  background-color: #f5f8dc;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.js-black{
+  background-color: #000;
+}
+
+.skills-small li{
+  font-size: 4rem;
+  background-color: #f5f8dc;
 }
 
 .indent-2{
@@ -290,6 +320,17 @@ footer{
   height: 2rem;
   line-height: 2rem;
   vertical-align: center;
+}
+
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 @media (min-width: 50rem){
