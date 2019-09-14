@@ -197,6 +197,14 @@ footer{
   border-radius: 1rem;
 }
 
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+  transform: scale(1.5); 
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -261,17 +269,16 @@ footer{
   color: #ccc
 }
 
-
 .skills{
   justify-content: center;
 }
 
 .skills li{
-  font-size: 6rem;
+  font-size: 4rem;
   background-color: #ffffff;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  margin: 0.5rem;
+  margin: 0.8rem;
 }
 
 .js-black{
