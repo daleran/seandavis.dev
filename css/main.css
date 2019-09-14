@@ -261,12 +261,6 @@ footer{
   color: #ccc
 }
 
-.skill-back{
-  border-color: #ddba1e;
-  border-style: solid;
-  border-radius: 0.5rem;
-  padding: 1rem;
-}
 
 .skills{
   justify-content: center;
@@ -274,7 +268,7 @@ footer{
 
 .skills li{
   font-size: 6rem;
-  background-color: #f5f8dc;
+  background-color: #ffffff;
   border-radius: 0.5rem;
   padding: 0.5rem;
   margin: 0.5rem;
@@ -282,11 +276,6 @@ footer{
 
 .js-black{
   background-color: #000;
-}
-
-.skills-small li{
-  font-size: 4rem;
-  background-color: #f5f8dc;
 }
 
 .indent-2{
@@ -314,6 +303,15 @@ footer{
 .v-padding-zero{
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.heading-link{
+  color: inherit;
+  text-decoration: none;
+}
+
+.heading-link:hover{
+  color:#ff255b;
 }
 
 .contact-list .btn-label{
