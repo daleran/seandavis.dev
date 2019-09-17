@@ -209,7 +209,7 @@ footer{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  width: auto;
 }
 
 .col-1 {
@@ -291,13 +291,11 @@ footer{
 }
 
 .proj-pic{
-  transition: all .2s ease-in-out; 
-  width:100%;
-  max-width:80%;
+  max-width: 85%;
   border-radius: 0.5rem;
   border-color: #ddba1e;
   border-style: solid;
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 .proj-pic:hover{
@@ -344,6 +342,19 @@ footer{
   height: 2rem;
   line-height: 2rem;
   vertical-align: center;
+}
+
+.center-margin{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.center-flex{
+  align-items: center;
 }
 
 .hidden {
@@ -401,10 +412,6 @@ footer{
   .nav-links a{
     font-weight: 300;
     font-size: 1.5rem;
-  }
-
-  .proj-pic{
-    max-width: 95%;
   }
 
   .indent-2{
