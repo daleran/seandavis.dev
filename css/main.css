@@ -225,6 +225,10 @@ footer{
   flex-basis: 100%;
 }
 
+.flex-flip {
+  order: 99;
+}
+
 .row-list{
   list-style: none;
   display: flex;
@@ -274,8 +278,9 @@ footer{
 }
 
 .skills li{
-  font-size: 4rem;
-  background-color: #ffffff;
+  font-size: 2rem;
+  background-color: #ddba1e;
+  color: #222222;
   border-radius: 0.5rem;
   padding: 0.5rem;
   margin: 0.8rem;
@@ -283,6 +288,20 @@ footer{
 
 .js-black{
   background-color: #000;
+}
+
+.proj-pic{
+  transition: all .2s ease-in-out; 
+  width:100%;
+  max-width:80%;
+  border-radius: 0.5rem;
+  border-color: #ddba1e;
+  border-style: solid;
+  margin: 0.5rem;
+}
+
+.proj-pic:hover{
+  border-color: #ff255b;
 }
 
 .indent-2{
@@ -347,6 +366,10 @@ footer{
     flex: 5;
   }
 
+  .flex-flip {
+    order: 0;
+  }
+
   h1{
     font-size: 4rem;
   }
@@ -378,6 +401,10 @@ footer{
   .nav-links a{
     font-weight: 300;
     font-size: 1.5rem;
+  }
+
+  .proj-pic{
+    max-width: 95%;
   }
 
   .indent-2{

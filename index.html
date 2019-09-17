@@ -16,7 +16,6 @@
 
   <link rel="stylesheet" href="icons/style.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 
 <body>
@@ -62,14 +61,14 @@
           </div>
         </article>       
         <article>
-          <h3>Skills</h3>
+          <h4 style="text-align: center">Skills</h4>
           <ul class="row-list skills">
-            <li class="grow"><i class="devicon-csharp-plain colored"></i><span class="hidden">C#</span></li>
-            <li class="grow"><i class="devicon-java-plain-wordmark colored"></i><span class="hidden">Java</span></li>
-            <li class="grow"><i class="devicon-javascript-plain colored js-black"></i><span class="hidden">JavaScript</span></li>
-            <li class="grow"><i class="devicon-nodejs-plain-wordmark colored"></i><span class="hidden">NodeJS</span></li>
-            <li class="grow"><i class="devicon-html5-plain-wordmark colored"></i><span class="hidden">HTML5</span></li>
-            <li class="grow"><i class="devicon-css3-plain-wordmark colored"></i><span class="hidden">CSS3</span></li>
+            <li class="grow">C#</li>
+            <li class="grow">Java</li>
+            <li class="grow">JS (ES6)</li>
+            <li class="grow">NodeJS</li>
+            <li class="grow">HTML5</li>
+            <li class="grow">CSS3</li>
           </ul>
         </article>
         <article>
@@ -159,42 +158,72 @@
     <section id="projects">
       <div class="wrapper">
         <h2>Projects</h2>
-        <article>
-          <div class="row-list">
-            <h3 class="v-padding-zero heading-link"><a href="http://34.200.67.130/" class="heading-link">Toggl REST API Integration</a></h3>
-            <a href="https://github.com/daleran/lpm-billing" class="btn-icon"><i class="icon-github"></i></a></li>
+        <article class="row">
+          <div class="col-1 flex-flip">
+            <a href="img/projects/api.png"><img class="proj-pic" src="img/projects/api.png" alt="Toggle API Integration"></a> 
           </div>
-          <p class="small-thin-font">
-            REST API student project to integrate Toggl time sheet service with an invoicing and billing service. Built with JavaScript, NodeJS, and ExpressJS. Includes a Swagger (Open API 3.0) specification and documentation for interacting witht he API. API hosted on an AWS EC2 instance. Data hosted on MongoDB Atlas.
-          </p>
-          <ul class="row-list cap-list v-padding-zero">
-            <li>JavaScript (ES6)</li>
-            <li>Node.JS</li>
-            <li>ExpressJS</li>
-            <li>MongoDB</li>
-            <li>Swagger</li>
-            <li>OpenAPI</li>
-            <li>AWS</li>
-          </ul>
+          <div class="col-5">
+              <div class="row-list">
+                  <h3 class="v-padding-zero heading-link"><a href="http://34.200.67.130/" class="heading-link">Toggl REST API Integration</a></h3>
+                  <a href="https://github.com/daleran/lpm-billing" class="btn-icon"><i class="icon-github"></i></a></li>
+                </div>
+                <p class="small-thin-font">
+                  REST API student project to integrate Toggl time sheet service with an invoicing and billing service. Built with JavaScript, NodeJS, and ExpressJS. Includes a Swagger (Open API 3.0) specification and documentation for interacting with the API. API hosted on an AWS EC2 instance. Data hosted on MongoDB Atlas.
+                </p>
+                <ul class="row-list cap-list v-padding-zero">
+                  <li>JavaScript (ES6)</li>
+                  <li>Node.JS</li>
+                  <li>ExpressJS</li>
+                  <li>MongoDB</li>
+                  <li>Swagger</li>
+                  <li>OpenAPI</li>
+                  <li>AWS</li>
+                </ul>
+          </div>
         </article>
-        <article>
-          <div class="row-list">
-            <h3 class="v-padding-zero"><a href="https://www.seandavis.dev/" class="heading-link">Personal Website</a></h3>
-            <a href="https://github.com/daleran/seandavis.dev" class="btn-icon"><i class="icon-github"></i></a></li>
+        <article class="row">
+          <div class="col-1 flex-flip">
+            <a href="img/projects/portfolio.png"> <img class="proj-pic" src="img/projects/portfolio.png" alt="Portfolio"></a>
           </div>
-          <p class="small-thin-font">
-            Responsive personal website to host my background, skills, and experience. Written in pure HTML, CSS, and JavaScript with no dependencies. Hosted on Microsoft Azure via a CDN with Azure Pipelines continuous integration from
-            GitHub.
-          </p>
-          <ul class="row-list cap-list v-padding-zero">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>MS Azure</li>
-            <li>Azure Pipelines</li>
-            <li>Continuous Integration</li>
-            <li>Responsive</li>
-          </ul>
+          <div class="col-5">
+              <div class="row-list">
+                  <h3 class="v-padding-zero"><a href="https://www.seandavis.dev/" class="heading-link">Personal Website</a></h3>
+                  <a href="https://github.com/daleran/seandavis.dev" class="btn-icon"><i class="icon-github"></i></a></li>
+                </div>
+                <p class="small-thin-font">
+                  Responsive personal website to host my background, skills, and experience. Written in pure HTML, CSS, and JavaScript with no dependencies. Hosted on Microsoft Azure via a CDN with Azure Pipelines continuous integration from
+                  GitHub.
+                </p>
+                <ul class="row-list cap-list v-padding-zero">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>MS Azure</li>
+                  <li>Azure Pipelines</li>
+                  <li>Continuous Integration</li>
+                  <li>Responsive</li>
+                </ul>
+          </div>
+        </article>
+        <article class="row">
+          <div class="col-1 flex-flip">
+            <a href="img/projects/lotm.png"><img class="proj-pic" src="img/projects/lotm.png" alt="Lord of the Manor"></a>
+          </div>
+          <div class="col-5">
+              <div class="row-list">
+                  <h3 class="v-padding-zero"><a href="https://github.com/Daleran-Games/lord-of-the-manor" class="heading-link">Lord of the Manor Game</a></h3>
+                  <a href="https://github.com/Daleran-Games/lord-of-the-manor" class="btn-icon"><i class="icon-github"></i></a></li>
+                </div>
+                <p class="small-thin-font">
+                  Small turn based city building game set in the early medieval era. Wrote a custom turn based tile engine in C# and developed a procedual map gneration algorithm based on cellular automota. Also created all the art for the game.
+                </p>
+                <ul class="row-list cap-list v-padding-zero">
+                  <li>C#</li>
+                  <li>Unity 3D</li>
+                  <li>Map Generation</li>
+                  <li>Pixel Art</li>
+                </ul>
+          </div>
         </article>
       </div>
     </section>
