@@ -1,0 +1,80 @@
+html{
+  font-size: 16px;
+}
+
+body{
+  
+}
+
+header{
+  background-color: black;
+}
+
+.navbar-brand img{
+  height: 3rem;
+}
+
+.btn-wof {
+  background-color:  rgb(237, 119, 34);
+  border-color:  rgb(237, 119, 34);
+  color: #FFF; 
+}
+
+.btn-wof:hover, .btn-wof:focus {
+  border-color: rgb(250, 161, 98);
+  background-color: rgb(250, 161, 98);
+  color: #FFF;
+  }
+  .btn-wof:active, .btn-wof:visited, .btn-wof:active:focus, .btn-wof:active:hover {
+  border-color: rgb(167, 92, 38);
+  background-color: rgb(167, 92, 38);
+  color: #FFF;
+}
+
+.carousel-item{
+  background-color: black;
+  height: 70vh;
+  min-height: 22rem;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title{
+  position: absolute;
+  top: 20%;
+  transform: translateY(-20%);
+}
+
+.vid-cont{
+  display: block;
+}
+
+.intro-vid{
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  width: 75%;
+  height: 75%;
+  overflow: auto;
+}
+
+.showcase{
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  width: 80vw;
+  height: auto;
+}
+
+
+/*Desktio 1024px */
+@media (min-width: 64rem){
+  .title{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
