@@ -50,6 +50,12 @@ RUN docker-php-ext-install pdo_mysql && \
     docker-php-ext-install mbstring && \
     docker-php-ext-install gettext
 
+# Install Composer
+ENV PATH /root/.composer/vendor/bin:$PATH
+
+# Expose 9000 for xdebug
+EXPOSE 9000
+
 # Enable apache modules
 RUN a2enmod rewrite headers
 
