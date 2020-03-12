@@ -1,2 +1,2 @@
 <?php
-    echo 'Hello World';
+    echo 'Requested URL: ' . $_SERVER['QUERY_STRING'] ;

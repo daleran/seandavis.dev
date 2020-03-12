@@ -1,0 +1,25 @@
+{
+  "name": "seandavis.dev",
+  "version": "1.0.0",
+  "description": "A personal portfolio for Sean Davis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daleran/seandavis.dev.git"
+  },
+  "author": "Sean Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daleran/seandavis.dev/issues"
+  },
+  "homepage": "https://github.com/daleran/seandavis.dev#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "sass": "^1.26.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
