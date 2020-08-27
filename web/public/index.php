@@ -2,6 +2,9 @@
 
 require('../../vendor/autoload.php');
 
-echo 'Hello World!';
 
-require('../src/test.php');
+use SD\Hello;
+
+$hello = new Hello();
+echo $hello->getHello();
+
